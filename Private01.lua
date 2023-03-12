@@ -1,3 +1,9 @@
+-- function
+
+if game:GetService("CoreGui"):FindFirstChild("Zamex Hub | Pet Trading Card Version : Free") then
+    game:GetService("CoreGui"):FindFirstChild("Zamex Hub | Pet Trading Card Version : Free"):Destroy()
+end
+
 -- init
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
